@@ -21,6 +21,7 @@ if uploaded_file is not None:
         st.markdown('Document verification')
         try:
             xml_scheme.assertValid(xml_file)
+            st.text('Verification is Ok!')
 
         except etree.DocumentInvalid as err:
             st.text(err.error_log)
