@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SCL_Schemas>
+  <Header id="SCL Schema" company="Schneider Electric" productRange="IEC 61850 IEDs" productName="CET850 Suite" version="1" revision="4.002" date="(2005-08-11) 2011-01-13"/>
+  <Content>
+    <XSD_File name="SCL.xsd" desc="Main SCL schema syntax definition"/>
+    <XSD_File name="SCL_Substation.xsd" desc="Substation related syntax definitions"/>
+    <XSD_File name="SCL_Communication.xsd" desc="Communication related syntax definitions"/>
+    <XSD_File name="SCL_IED.xsd" desc="IED related syntax definitions"/>
+    <XSD_File name="SCL_DataTypeTemplates.xsd" desc="Data type template related syntax definitions"/>
+    <XSD_File name="SCL_BaseSimpleTypes.xsd" desc="Basic simple definitions"/>
+    <XSD_File name="SCL_BaseTypes.xsd" desc="Basic complex type definitions"/>
+    <XSD_File name="SCL_Enums.xsd" desc="Basic simple definitions"/>
+  </Content>
+</SCL_Schemas>
